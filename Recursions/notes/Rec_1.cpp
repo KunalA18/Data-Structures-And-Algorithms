@@ -35,3 +35,20 @@ int main()
     int x = 4;
     func1(x);
 }
+
+//General case
+
+/*void func1(int n)
+{
+
+    if (n > 0)
+    {
+        Ascending  1.Calling
+                   2.func1(n - 1);
+        Descending 3.Returning
+    }
+}  */
+
+//Loop vs Recursion
+// Loops has only calling phase
+// Recursion has both phases
