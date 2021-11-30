@@ -2,7 +2,7 @@
 using namespace std;
 //Example
 
-// 1st case - Calling phase
+// 1st case - Calling phase - Tail Recursion
 
 /* void func1(int n)
 {
@@ -19,7 +19,7 @@ int main()
     func1(x);
 }                    */
 
-// 2nd case - Returning phase
+// 2nd case - Returning phase - Head Recursion
 
 void func1(int n)
 {
