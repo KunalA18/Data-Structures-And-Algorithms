@@ -1,6 +1,6 @@
-//pnc formula
-//nCr = n!/(r!*(n-r)!)
-//Implementation using Pascal's triangle
+// pnc formula
+// nCr = n!/(r!*(n-r)!)
+// Implementation using Pascal's triangl
 #include <iostream>
 using namespace std;
 
@@ -10,7 +10,7 @@ int fact(int n)
         return 1;
     return fact(n - 1) * n;
 }
-int nCr(int n, int r) //another form
+int nCr(int n, int r) // another form
 {
     int num, den;
     num = fact(n);
